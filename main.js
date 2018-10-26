@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
   // #edebf0
   let color = ""
-  let pixelAmount= 4000
+  let pixelAmount= 3036
   for (let i = 0 ; i < pixelAmount ; i++) {
     let div = document.querySelector('.grid')
     let pixel = document.createElement("div")
-    pixel.style.width = "1%"
-    pixel.style.paddingBottom = "1%"
+    pixel.style.width = "1.5%"
+    pixel.style.paddingBottom = "1.5%"
     pixel.style.float = "left"
     pixel.style.border = "1px solid"
     pixel.style.borderColor = "#edebf0"
